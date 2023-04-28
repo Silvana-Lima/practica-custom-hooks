@@ -3,7 +3,7 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 export const useGetApi = (url) => {
-  const [data, setData] = useState([])
+  const [data, setData] = useState(null)
 
   useEffect(() => {
     axios

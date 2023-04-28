@@ -5,7 +5,7 @@
 - El hook debe aceptar un parámetro que sea el valor inicial del contador, que por defecto sea 0.
 - Debe tener la funcionalidad de sumar, restar y resetear el contador.
 
-### 2- Crea un custom hook que haga una solicitud GET a una API de noticias y devuelva el resultado.
+### 2- Crea un custom hook que haga una solicitud GET a una API de noticias y devuelva el resultado. ✅
 
 - El hook debe aceptar un parámetro que sea la URL de la API, y utilizar useEffect para hacer la solicitud al montar el componente.
 
