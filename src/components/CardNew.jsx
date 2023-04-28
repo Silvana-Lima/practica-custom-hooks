@@ -1,8 +1,5 @@
-import { useGetApi } from '../hooks/useGetApi'
-
-export const CardNew = () => {
-  const { data } = useGetApi('https://rickandmortyapi.com/api/character')
-
+export const CardNew = ({ data }) => {
+  console.log(data)
   return (
     <div>
       {data &&
