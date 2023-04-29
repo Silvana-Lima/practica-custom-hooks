@@ -1,10 +1,4 @@
-import { useGetApi } from '../hooks/useGetApi'
-
-export const CardNew = () => {
-  const { data } = useGetApi(
-    'https://newsapi.org/v2/top-headlines?country=ar&apiKey=087719249a154ecd89266e64e4b25079'
-  )
-
+export const CardNew = ({ data }) => {
   return (
     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '15px' }}>
       {data &&
