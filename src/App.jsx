@@ -5,8 +5,13 @@ import { CardNew } from './components/cardNew'
 function App() {
   return (
     <>
-      <Count />
-      <CardNew />
+      {/* <h2>Ej 1 - Contador</h2>
+      <Count /> */}
+
+      <div>
+        <h2>Ej 2 - Últimas noticias</h2>
+        <CardNew />
+      </div>
     </>
   )
 }
