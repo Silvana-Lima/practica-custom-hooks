@@ -1,5 +1,6 @@
 import './App.css'
 import { Count } from './components/Count'
+import { FormUser } from './components/FormUser'
 import { CardNew } from './components/cardNew'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Count />
       <CardNew />
+      <FormUser />
     </>
   )
 }
