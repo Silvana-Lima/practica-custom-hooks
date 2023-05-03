@@ -1,6 +1,6 @@
 import './App.css'
-import { Count } from './components/Count'
-import { FormUser } from './components/FormUser'
+// import { Count } from './components/Count'
+// import { FormUser } from './components/FormUser'
 import { CardNew } from './components/cardNew'
 import { useGetApi } from './hooks/useGetApi'
 import { usePagination } from './hooks/usePagination'
